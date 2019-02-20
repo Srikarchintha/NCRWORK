@@ -12,9 +12,7 @@ void calc()
 	scanf_s("%d", &num1);
 	scanf_s("%d", &num2);
 	printf("\nenter the option 1:addition 2:subtraction 3:multiplication 4:divison \n");
-	fflush(stdin);
-	fflush(stdout);
-	scanf("%d", &b);
+	scanf_s("%d", &b);
 	//printf("%s", b);
 	switch (b)
 	{
@@ -45,8 +43,6 @@ int main()
 		}
 	}
 	//printf("%c", b);
-	fflush(stdin);
-	fflush(stdout);
 	getchar();
 	getchar();
 	return 0;
